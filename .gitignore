@@ -1,0 +1,4 @@
+#fjern unødvingige filer
+out/
+.idea
+*.iml
