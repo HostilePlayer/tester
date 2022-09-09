@@ -17,6 +17,7 @@ public class SuperGreeter {
         hejBruger();
         askAboutAge();
         greeter.start();
+        stupid();
         //metoder
     }
 
@@ -33,6 +34,10 @@ public class SuperGreeter {
         String brugerNavn = scanner.next();
         System.out.println("Hej " + brugerNavn);
         //få brugerens navn
+    }
+
+    private static void stupid() {
+        System.out.println("du er dåm og grim");
     }
 
 }
