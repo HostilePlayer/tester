@@ -41,7 +41,7 @@ public class SuperGreeter {
     }
 
     public static void setClass(){
-        System.out.println("Hej ," + brugerNavn + " hvad er dit navn?");
+        System.out.println("Hej ," + brugerNavn + " hvad er din class?");
         String klasse = scanner.next();
         System.out.println("så du er en " + klasse);
     }
