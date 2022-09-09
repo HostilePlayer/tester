@@ -17,7 +17,6 @@ public class SuperGreeter {
         hejBruger();
         askAboutAge();
         greeter.start();
-        stupid();
         //metoder
     }
 
@@ -36,8 +35,5 @@ public class SuperGreeter {
         //få brugerens navn
     }
 
-    private static void stupid() {
-        System.out.println("du er dåm og grim");
-    }
 
 }
