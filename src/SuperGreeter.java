@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class SuperGreeter {
 
+    //bliver dette pushed til Git hub
+
     static Scanner scanner = new Scanner(System.in);
     static String brugerNavn = "brugernavn";
 
