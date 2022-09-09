@@ -8,6 +8,7 @@ public class SuperGreeter {
     public void start(){
 
         System.out.println("Det virker!");
+        //resultat
     }
 
     public  static void main(String[] args) {
@@ -16,20 +17,22 @@ public class SuperGreeter {
         hejBruger();
         askAboutAge();
         greeter.start();
+        //metoder
     }
 
     private static void askAboutAge() {
-        System.out.println("hvor gammel er du " + brugerNavn);
+        System.out.println("Hvor gammel er du " + brugerNavn);
         int brugerAlder = scanner.nextInt();
-        System.out.println("så du er " + brugerAlder + " år gammel");
+        System.out.println("Så du er " + brugerAlder + " år gammel");
+        //få aller
 
     }
 
     private static void hejBruger() {
         System.out.println("Hej bruger, hvad er dit navn?");
         String brugerNavn = scanner.next();
-        System.out.println("hej " + brugerNavn);
-
+        System.out.println("Hej " + brugerNavn);
+        //få brugerens navn
     }
 
 }
