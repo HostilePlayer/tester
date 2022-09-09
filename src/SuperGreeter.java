@@ -3,9 +3,11 @@ import java.util.Scanner;
 public class SuperGreeter {
 
     //bliver dette pushed til Git hub
+    //hvad med nu?
 
     static Scanner scanner = new Scanner(System.in);
     static String brugerNavn = "brugernavn";
+    static String klasse = "klasse";
 
     public void start(){
 
@@ -18,6 +20,7 @@ public class SuperGreeter {
         SuperGreeter greeter = new SuperGreeter();
         hejBruger();
         askAboutAge();
+        setClass();
         greeter.start();
         //metoder
     }
@@ -37,5 +40,10 @@ public class SuperGreeter {
         //få brugerens navn
     }
 
+    public static void setClass(){
+        System.out.println("Hej ," + brugerNavn + " hvad er dit navn?");
+        String klasse = scanner.next();
+        System.out.println("så du er en " + klasse);
+    }
 
 }
